@@ -1,0 +1,82 @@
+.footer{
+    background-color: $primary-color;
+    color: #B2B3CF;
+    text-align: center;
+    &-icon{
+        padding-top: 83px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+        img{
+            margin-right: 40px;
+        }
+        &-text{
+            border-left: 2px solid #626381;
+            width: 156px;
+            padding-left: 40px;
+        }
+        p{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.88px;
+        }
+    }
+    &-sub-input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+        input{
+            outline: none;
+            background-color:$primary-color;
+            border: none;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 0.8px;
+        }
+    }
+    .input{
+        padding: 15px 240px 15px 30px;
+        border: 1px solid #83839A;
+        border-radius: 60px;
+        margin-right: 20px;
+    }
+    .btn{
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 500;
+        border-radius: 60px;
+        background: linear-gradient(157deg, #545AE7 0%, #393FCF 100%);
+        padding: 14px 34px;
+    }
+    &-policy{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    &-year{
+        padding-bottom: 40px;
+    }
+    
+}
+
+.caree{
+    margin-right: 20px;
+}
+
+.poli{
+    border-left: 1px solid #626381;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.term{
+    border-left: 1px solid #626381;
+    padding-left: 20px;
+}

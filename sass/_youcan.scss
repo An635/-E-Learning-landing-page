@@ -1,0 +1,53 @@
+.youcan{
+    max-width: 1500px;
+    padding: 0 15px;
+    margin: 0 auto 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0  67px;
+    & > *{
+        width: 50%;
+    }
+    &-heading{
+        color: $primary-color;
+   
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 160%;
+        span{
+            color:$secondary-color;
+            margin-bottom: 30px;
+        }
+    }
+    &-desc{
+        color:$gray;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 180%;
+        letter-spacing: 0.02rem;
+        margin-bottom: 30px;
+    }
+    &-more{
+        text-decoration: underline;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    &-image{
+        position: relative;
+    }
+    &-play{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+        border-radius: 100rem;
+        background-color: white;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+    }
+}

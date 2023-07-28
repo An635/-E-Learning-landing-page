@@ -1,0 +1,26 @@
+.company{
+   
+    margin-bottom: 163px;
+    &-heading{
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 160%;
+        font-family: Poppins;
+        color: $gray;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    &-logos{
+        display: flex;
+        align-items: center;
+        gap: 0 75px;
+        max-width: 1370px;
+        padding: 0 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    &-logo img{
+        margin: 0 auto;
+       
+    }
+}

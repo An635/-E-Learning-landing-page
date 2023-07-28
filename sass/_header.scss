@@ -1,0 +1,113 @@
+.header{
+    // min-height: 1118px;
+    background-color: $yellow;
+    border-radius: 0 0 280px 180px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    clip-path: ellipse(99% 99% at top);
+    &-container{
+        max-width:1725px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
+    }
+    &-top{
+        padding-top: 60px;
+        padding-bottom: 83px;
+        display: flex;
+        align-items: center;
+
+    }
+    &-buttons{
+        margin-left: 80px;
+        display: flex;
+        align-items: center;
+        gap: 0 34px;
+    }
+    &-main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0 31px;
+    }
+    &-heading{
+        font-size: 54px;
+        font-weight: bold;
+        margin-bottom: 34px;
+        line-height: calc(81/54);
+        color: $secondary-color;
+        span{
+            color: $primary-color;
+        }
+    }
+    &-desc{
+        font-size: 24px;
+        line-height: 160%;
+        margin-bottom: 52px;
+        color: $gray-dark;
+    }
+    &-actions{
+        display: flex;
+        align-items: center;
+        gap: 0 40px;
+        .btn-primary{
+            padding: 22px 38px;
+        }
+    }
+}
+
+.btn{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: $font-primary;
+    line-height: calc(33/22);
+    padding: 14px 50px;
+    border: 0;
+    outline: none;
+    border-radius: 100rem;
+    text-decoration: none;
+    cursor: pointer;
+   
+    &-white{
+        background-color: white;
+        color: $gray-light;
+    }
+    &-primary{
+        color: white;
+        background-color: $secondary-color;
+    }
+}
+
+.menu{
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0 80px;
+    &-link{
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+.watch{
+    display: flex;
+    align-items: center;
+    gap: 0 32px;
+    font-size: 24px;
+    line-height: calc(36/24);
+    color: $gray-dark;
+    text-decoration: none;
+    &-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        border-radius: 100rem;
+        background-color: #ffff;
+        box-shadow: 2px 20px 60px rgba(61, 165, 106, .1);
+        cursor: pointer;
+    }
+}

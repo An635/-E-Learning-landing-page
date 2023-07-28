@@ -1,0 +1,95 @@
+.news{
+    max-width: 1557px;
+    margin: 0 auto 160px;
+    &-title{
+        padding: 0 15px;
+        margin: 0 auto 103px;
+        text-align: center;
+    }
+    &-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    &-content{
+        max-width: 640px;
+        &__image img{
+            width: 640px;
+            height: 340px;
+            flex-shrink: 0;
+            border-radius: 20px;
+            opacity: 1;
+            background: #171B41;
+        }
+        &_btn{
+                display: block;
+                text-align: center;
+                color: #252641;
+                margin-top: 42px;
+                // padding: 2px 35px;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 180%; 
+                letter-spacing: 0.4px;
+                text-decoration: none;
+                background-color: #F4C467;
+                border-radius: 20px;
+                width: 130px;
+                height: 40px;
+        }
+        &_title{
+                color: #252641;
+                font-size: 26px;
+                font-weight: 500;
+                line-height: 180%;
+        }
+        &_desc{
+            color: #696984;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 180%; 
+            letter-spacing: 0.4px;
+        }
+        &_more{
+            color: #696984;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 180%;
+            letter-spacing: 0.4px;
+            text-decoration-line: underline;
+        }
+    }
+    &-other{
+        max-width: 797px;
+        &-list{
+            display: flex;
+            gap: 0 40px;
+            margin-bottom: 50px;
+        }
+    }
+    &-other-image img{
+        width: 280px;
+        height: 200px;
+        border-radius: 20px;
+        opacity:1;
+        background: #171B41;
+    }
+    &-other-title{
+        max-width: 477px;
+    }
+    &-other-tit{
+        display: inline;
+        color: #252641;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 180%;
+    }
+    &-other-desc{
+        color: #696984;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 180%; 
+        letter-spacing: 0.4px;
+    }
+
+}
